@@ -1,0 +1,13 @@
+{
+  "name": "interview-platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix server-interv.io && npm install --prefix client-interv.io && npm run build --prefix client-interv.io"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
