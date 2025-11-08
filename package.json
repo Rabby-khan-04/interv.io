@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm install --prefix server-interv.io && npm install --prefix client-interv.io && npm run build --prefix client-interv.io"
+    "build": "npm install --prefix server-interv.io && npm install --prefix client-interv.io && npm run build --prefix client-interv.io",
+    "start": "npm run start --prefix server-interv.io"
   },
   "keywords": [],
   "author": "",
